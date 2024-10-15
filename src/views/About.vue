@@ -1,17 +1,14 @@
+<!-- src/views/Home.vue -->
 <template>
-    <div>
-      <h1>About Page</h1>
-      <p>This is the about page.</p>
+  <div>
+    <Header />
+    <div class="mt-4">
+      <h1>Aboute Page</h1>
+      <p>Welcome to About page!</p>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'About'
-  }
-  </script>
-  
-  <style scoped>
-  /* Add any specific styles for About here */
-  </style>
-  
+  </div>
+</template>
+
+<script setup>
+import Header from '../components/Header.vue'
+</script>
